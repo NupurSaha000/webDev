@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color:lightgray;
+  background-color:grey;
 }
 
 h1 {
@@ -14,8 +14,9 @@ h2 {
 p {
   font-size: 10px;
   line-height: 1.5;
-  color:black;
+  color:aquamarine!important;
   font-size:smaller;
+  
 }
 
 #intro {
@@ -24,4 +25,13 @@ p {
 
 .note {
     color:darkseagreen;
+}
+
+.box {
+    width: 200px;           
+    height: 100px;          
+    border: 1px solid #000; 
+    padding: 20px;          
+    margin: 10px;           
+    box-sizing: border-box; 
 }

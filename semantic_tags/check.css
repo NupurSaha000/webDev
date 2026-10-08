@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:bisque;
+}
+
+*{
+    background-color:aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+     width: 200px;           
+    height: 100px;          
+    border: 1px solid #000; 
+    box-sizing: border-box;
+  color:darkred;
+}
+
+h2 {
+    color:darkred;
+}
+
+p {
+  font-size: 10px;
+  line-height: 1.5;
+  color:darkred;
+  font-size:smaller;
+  
+}
+
+div+p{
+    color:yellow;
+}
+
+#intro {
+    color:darkolivegreen;
+}
+
+.note {
+    color:darkred;
+    background-color: lightpink;
+}
+
